@@ -1,4 +1,5 @@
-#include <iostream>
+
+	#include <iostream>
 using namespace std;
 
 	int fnc=0; //fila normal contador
@@ -11,11 +12,11 @@ int main() {
 	string sexo;
 	string fn[400];
 	string fp[400];
-	bool sair=1;
+	bool sair=0;
 	int menu;
 	
 	
-	while (sair==1){
+	while (sair==0){
 		cout << "\n --------------- " << fnc+fpc  << " PESSOAS NA FILA --------------- " << endl << endl << "-------------MENU------------" << endl << "1- Novo usuario" << endl << "2- fila" << endl << "3- chamar proximo" << endl << "0- sair" << endl;
 		cout<< "\n\n Digite a opcao que voce deseja:"; 
 		cin >> menu;
@@ -91,3 +92,4 @@ int main() {
 			
 	return 1; 
 	
+	}
